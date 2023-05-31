@@ -1,1 +1,2 @@
-(code goes here slqnted, lets work)
+(function()
+ {var gui = document.createElement('div');gui.style.position = 'fixed'; gui.style.color = '#fff'; gui.style.bottom = '50%';gui.style.right = '50%';gui.style.zIndex = '9999';gui.style.background = 'pink';gui.style.padding = '10px';gui.style.borderRadius = '5px';gui.style.boxShadow = '0 0 10px rgba(0,0,0,0.3)';var title = document.createElement('h2');title.style.marginTop = '0';title.style.marginBottom = '10px';title.textContent = 'My Bookmarklet GUI';var button = document.createElement('button');button.textContent = 'Web Browser';button.addEventListener('click', function() {alert('Hello, World!');});gui.appendChild(title);gui.appendChild(button);document.body.appendChild(gui);})();
